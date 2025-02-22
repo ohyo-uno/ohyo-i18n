@@ -1,0 +1,28 @@
+{
+  "name": "ohyo",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "dev:desktop": "yarn tauri dev",
+    "dev:internal-tauri": "turbo watch --filter @ohyo/desktop dev"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.2.7",
+    "@types/node": "^22.13.5",
+    "turbo": "^2.4.2",
+    "typescript": "^5.7.3"
+  },
+  "homepage": "https://github.com/ohyo-uno/ohyo-app#readme",
+  "bugs": {
+    "url": "https://github.com/ohyo-uno/ohyo-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohyo-uno/ohyo-app.git"
+  }
+}
