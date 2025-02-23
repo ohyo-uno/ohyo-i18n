@@ -7,6 +7,7 @@
     "dev": "vite"
   },
   "dependencies": {
+    "@ohyo/ui": "workspace:*",
     "@tauri-apps/api": "^2.2.0",
     "@tauri-apps/plugin-opener": "^2.2.5",
     "pinia": "^3.0.1",

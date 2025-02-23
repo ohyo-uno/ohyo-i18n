@@ -5,7 +5,9 @@
   "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev:desktop": "yarn tauri dev",
-    "dev:internal-tauri": "turbo watch --filter @ohyo/desktop dev"
+    "dev:storybook": "yarn workspace @ohyo/ui storybook",
+    "dev:internal-tauri": "turbo watch --filter @ohyo/desktop dev",
+    "build:ui": "yarn workspace @ohyo/ui build"
   },
   "workspaces": [
     "apps/*",

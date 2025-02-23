@@ -23,3 +23,5 @@ Cargo.lock
 # frontent
 node_modules
 .turbo
+*storybook.log
+.yarn
