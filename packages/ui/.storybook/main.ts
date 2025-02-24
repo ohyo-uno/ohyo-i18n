@@ -5,7 +5,7 @@ import type { StorybookConfig } from '@storybook/vue3-vite';
  * It is needed in projects that use Yarn PnP or are set up within a monorepo.
  */
 const config: StorybookConfig = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
+  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx|vue)"],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',

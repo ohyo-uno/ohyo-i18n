@@ -11,13 +11,9 @@ export default defineConfig({
     vue(),
     vueDevTools(),
     dts({
-      // 包含的文件类型
       include: ['src/**/*.{vue,ts,tsx}'],
-      // 输出目录
       outDir: ['dist/types'],
-      // 写入文件前的处理
       beforeWriteFile: (filePath, content) => ({
-        // 替换文件路径中的 '/src/' 为 '/'，不然类型产物都会被放在src文件夹下面
         filePath: filePath.replace('/src/', '/'),
         content,
       }),
