@@ -26,3 +26,5 @@ node_modules
 *storybook.log
 .yarn
 dist
+
+.DS_Store
