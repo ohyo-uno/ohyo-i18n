@@ -5,6 +5,7 @@
   "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev:desktop": "yarn tauri dev",
+    "dev:vault": "yarn tauri dev",
     "dev:storybook": "yarn workspace @ohyo/ui storybook",
     "dev:web": "yarn workspace @ohyo/web dev",
     "dev:ui": "yarn workspace @ohyo/ui storybook",

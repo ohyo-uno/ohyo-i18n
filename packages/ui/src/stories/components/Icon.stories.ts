@@ -3,7 +3,8 @@ import { Money16Regular } from '@vicons/fluent'
 
 export default {
   component: Icon,
-  title: 'Icon',
+  title: 'Components/Icon',
+  categories: ['Components'],
   tags: ['autodocs'],
   render: (args: any) => ({
     components: { Money16Regular, Icon },
@@ -18,7 +19,7 @@ export default {
   })
 };
 
-export const Default = {
+export const Primary = {
   args: {
     size: '12',
     color: 'black',
