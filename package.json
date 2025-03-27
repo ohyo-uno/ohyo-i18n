@@ -3,11 +3,21 @@
   "type": "module",
   "version": "0.0.0",
   "description": "i18n",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
   "dependencies": {
     "vue-i18n": "^11.1.2"
   },
   "devDependencies": {
     "typescript": "^5.8.2"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    },
+    "./*": "./src/*"
   },
   "homepage": "https://github.com/ohyo-uno/ohyo-i18n#readme",
   "bugs": {
