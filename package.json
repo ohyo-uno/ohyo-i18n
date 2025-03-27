@@ -1,0 +1,21 @@
+{
+  "name": "@ohyo/i18n",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "i18n",
+  "dependencies": {
+    "vue-i18n": "^11.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "homepage": "https://github.com/ohyo-uno/ohyo-i18n#readme",
+  "bugs": {
+    "url": "https://github.com/ohyo-uno/ohyo-i18n/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohyo-uno/ohyo-i18n.git"
+  },
+  "license": "MIT"
+}
