@@ -1,3 +1,6 @@
 {
-  "hello": "Hello ES"
+  "hello": "Hello ES!",
+  "word": {},
+  "phrase": {},
+  "sentence": {}
 }
