@@ -23,9 +23,8 @@ export const locales: Record<LocaleType, MessageSchema> = {
   'zh-Hant': zhHant,
 }
 
-export const i18n = (locale: LocaleType) => createI18n<[MessageSchema], LocaleType>({
-  legacy: false, // to use Composition API
-  locale: locale,
+export const i18n = createI18n<[MessageSchema], LocaleType>({
+  locale: 'zh-CN',
   fallbackLocale: 'en-US',
   messages: locales
 })
