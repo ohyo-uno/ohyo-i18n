@@ -12,7 +12,7 @@ type MessageSchema = typeof zhCN
 
 export type LocaleType = 'en-US' | 'en-ES' | 'ja-JP' | 'zh-CN' | 'de-DE' | 'fr-FR' | 'pt-BR' | 'zh-Hant'
 
-export const locales: Record<LocaleType, MessageSchema> = {
+export const locales: Record<LocaleType, any> = {
   'en-US': enUS,
   'en-ES': enES,
   'ja-JP': jaJP,
